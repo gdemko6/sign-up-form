@@ -10,21 +10,45 @@
 <body>
    <div class="sidebar">
         <img src="images/Rocks.jpg" alt="Odin Logo">
+        <div id="odin">ODIN</div>
         <div id="credit">Photo by <a href="https://unsplash.com/@itsjaredtomasekagain?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jared Tomasek</a> on <a href="https://unsplash.com/photos/man-on-cliff-near-water-1iyXemRMWPs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </div>
    </div>
 
    <main>
         <div class="header">
-
+          This is not a real online service! This is a test sign up form. 
+          Sign up <em>now</em> to get started.
         </div>
 
         <form action="sign-up-form.js" method="post">
+          
+
+          <div>
+               <label for="firstname">FIRST NAME</label>
+               <input type="text" name="firstname" id="firstname">
+               <label for="email">EMAIL</label>
+               <input type="email" id="email" name="email">
+               <label for="password">PASSWORD</label>
+               <input type="password" name="password" id="password">
+          </div>
+          <div>
+               <label for="lastname">LAST NAME</label>
+               <input type="text" name="lastname" id="lastname">
+               <label for="phonenum">PHONE NUMBER</label>
+               <input type="text" name="phonenumber" id="phonenum">
+               <label for="confirmpass">CONFIRM PASSWORD</label>
+               <input type="password" name="confirmpassword" id="confirmpass">
+          </div>
+          
+
+
 
         </form>
 
         <div class="footer">
-
+          <button type="button" id="create">Create Account</button>
+          <div>Already have an account? <span style="color: green;"> Log in</span></div>
         </div>
    </main>
 </body>
